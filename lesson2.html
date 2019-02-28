@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en, zh"> <!-- 根标签 "关键字" -->
+<head>
+	<meta charset="utf-8"> 
+	<title>document</title> <!-- 页脚标 -->
+<!-- 	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			list-style: none;
+
+		}
+		li{
+			margin: 0 10px;
+			float: left;
+			color: #f40;
+			font-weight: bold;
+			font-size: 14px;
+			height: 25px;
+			line-height: 25px;
+			padding: 0 3px
+		}
+
+		li:hover{
+			border-radius: 15px; /*设置失败了*/
+			background-color: #f40;
+			color: #fff;
+		}
+	</style> -->
+</head>
+
+
+<body> <!-- 空格 文字分隔符 -->
+	<!-- 
+	html编码
+	&nbsp; == 空格
+	&lt; == <
+	&gt; == > 
+	&lt;div&gt;
+	<br> 表示换行
+	<hr> 
+	-->
+
+	<!-- 有序列表 -->
+	<!-- 
+	
+
+	 -->
+<!-- 	 <ol type="1" reversed="reversed" start="2"> type="a" "A" "1" "Ⅰ" "i" 就五种排序 默认 "1" reversed="reversed" 逆序
+	 	<li> marvel</li>
+	 	<li>su 8</li>
+	 	<li>返老还童</li>
+	 	<li>了不起的盖茨比</li>
+		<li>了不起的盖茨比</li>
+	 </ol> -->
+
+	 <!-- 无序列表 -->
+
+<!-- 	 <ul type="square">  disc circle square 父子项 
+	 	<li>苹果</li>
+	 	<li>草莓</li>
+	 </ul> -->
+<!-- 
+ 	 <ul type="square"> 应用 导航员 
+	 	<li>天猫</li>
+	 	<li>聚划算</li>
+	 	<li>天猫超市</li>
+	</ul> -->
+
+
+<!-- 
+	<div style="width:100px; height:100px; background-color: red;">
+		讲解是&lt;div&gt;标签
+
+	</div> -->
+
+	<img src="" alt="this is picture" title="title">
+<!-- 
+	1.网上的url
+	2.本地的绝对路径
+	3.本地的相对路径
+	alt 图片占位符
+	title 图片提示符
+ -->
+ 	<a href="http://www.baidu.com" target="_blank">www.baidu.com</a> <!-- hyperText reference 可以是任意的 -->
+ 	<a href="tel:13436230739"></a>
+ 	<a href="mailto:13436230739">发送邮件</a>
+ 	<!-- // 超级链接 anchor --锚 回顶部 -->
+ 	<!-- 1.超链接
+ 	2.锚点
+ 	3.打电话
+ 	4.协议限定符 -->
+
+ 	<!-- 表单 -->
+ 	<form method="get" action="">
+ 		<p>
+ 			username:<input type="text" name="username" style="color:#999" value="请输入用户名"
+ 			onfocus="if (this.value=='请输入用户名') {this.value=''; this.style.color='#424242'}" onblur="if (this.value=='') {this.value='请输入用户名'; this.style.color='#999'}">
+ 		</p>
+ 		<p>
+ 			password:<input type="password" name="password">
+ 		</p>
+
+
+ 		<p>喜欢的男星</p> <!-- name属性 和value 单选框-->
+ 		1.贝克汉姆 <input type="radio" name="star" value="xiaobei">
+		2.莱昂纳多 <input type="radio" name="star" value="langang">
+
+ 		<input type="submit" value="login">
+ 	</form>
+
+
+</body>
+</html>
